@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=<device-width>,initial">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var r = parseFloat(window.prompt("Enter Radius: "));
+            document.write("Area: ",(Math.PI*r*r).toFixed(2));
+        </script>
+    </body>
+</html>
